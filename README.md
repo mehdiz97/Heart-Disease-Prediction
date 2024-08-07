@@ -1,4 +1,4 @@
-# Heart-Disease-Prediction
+# Heart Disease Prediction
 
 ## Description
 Heart disease is one of the most significant causes of mortality in the world today. Prediction of cardiovascular disease is a critical
