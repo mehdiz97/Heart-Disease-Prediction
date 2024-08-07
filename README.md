@@ -13,13 +13,17 @@ is introduced using logistic regression techniques.
 In the part of working with a structured dataset we first cleaned our data by determining how many NaN values we have and plotting a histogram of missing values. After removing missing values, we decided to see our categorical variables distribution. After that we plot variables correlation to see which features are correlated with our target. We found out there are some features that are highly correlated with each other. We trimmed some of them to reduce the dimensions of our features.
 
 ● “sysBP” and “diaBP” are highly correlated. (0.79)
+
 ● “prevalentHyp” and “sysBP” are highly correlated. (0.7)
+
 ● “currentSmoker” and “cigsPerday” are highly correlated. (0.77)
 
 Then we check how each of these features are correlated with our target (“TenYearCHD”)
 
 ● “currentSmoker” = 0.019
+
 ● “diaBP” = 0.15
+
 ● “prevalentHyp” = 0.18
 
 We found important features by performing a Logistic Regression and evaluating coefficients. We also used the RandomForestClassifier to find important features. We achieved some evidence that shows the most important features are 1,9,10,11,12,13,14 ['age', 'totChol', 'sysBP', 'diaBP', 'BMI', 'heartRate', 'glucose']. The third method we used to make sure was the chi-squared (chi²) statistical test. But before that, we decided to see how our target was balanced to determine which metrics we should use to evaluate our model. Our dataset is imbalanced, so we used confustion_matrix and roc_auc_score. We also over-sampled our dataset to create a balanced dataset.
