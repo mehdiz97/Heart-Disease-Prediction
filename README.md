@@ -8,3 +8,7 @@ being used in recent developments in different areas of the Internet of Things. 
 heart disease with ML techniques. In this project we propose a method that aims at finding significant features by applying
 machine learning techniques resulting in improving the accuracy in the prediction of cardiovascular disease. The prediction model
 is introduced with Logistic Regression techniques.
+
+## Note
+*The full report is available in the Final FDS project.pdf*
+*FDS_Project_final.ipynb notebook contains the codes and details on implementation.*
